@@ -7,9 +7,9 @@ function LoginPopus({setShowLogin}) {
     const [currentState,setCurrentSatate]=useState("Sign-up")
 
     const [data,setData]=useState({
-        name:"",
-        email:"",
-        password:""
+        name:"Guest",
+        email:"guestUser@gmail.com",
+        password:"guest@20"
     })
 
 
